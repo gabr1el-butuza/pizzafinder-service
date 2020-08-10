@@ -1,0 +1,1 @@
+ALTER TABLE `location` ADD `placeRating` varchar(255);

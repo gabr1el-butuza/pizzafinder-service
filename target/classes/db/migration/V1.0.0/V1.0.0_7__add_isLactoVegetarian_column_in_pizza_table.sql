@@ -1,0 +1,1 @@
+ALTER TABLE `pizza` ADD `isLactoVegetarian` BIT(1);

@@ -1,0 +1,12 @@
+com\pizzafinder\service\controller\PizzaFinderController.class
+com\pizzafinder\service\repository\PizzaFinderRepository.class
+META-INF\spring-configuration-metadata.json
+com\pizzafinder\service\api\PizzaFinderApi.class
+com\pizzafinder\service\PizzaFinderServiceServer.class
+com\pizzafinder\service\dto\Pizza.class
+com\pizzafinder\service\dto\SpiceLevel.class
+com\pizzafinder\service\config\PizzaFinderServiceConfig.class
+com\pizzafinder\service\service\PizzaFinderService.class
+com\pizzafinder\service\domain\BaseEntity.class
+com\pizzafinder\service\config\DbConfig.class
+com\pizzafinder\service\domain\PizzaEntity.class

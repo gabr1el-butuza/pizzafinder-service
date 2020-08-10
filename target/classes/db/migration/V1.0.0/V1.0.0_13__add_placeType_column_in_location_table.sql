@@ -1,0 +1,1 @@
+ALTER TABLE `location` ADD `placeType` varchar(255);

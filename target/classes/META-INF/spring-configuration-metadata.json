@@ -1,0 +1,541 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.pizzafinder.service.config.DbConfig",
+      "name": "database",
+      "sourceMethod": "hikariConfig()",
+      "type": "com.zaxxer.hikari.HikariConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.initialization-fail-fast",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.initialization-fail-fast",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.initialization-fail-fast",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.jdbc4-connection-test",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.jdbc4-connection-test",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.jdbc4-connection-test",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.scheduled-executor-service",
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.scheduled-executor-service",
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "deprecated": true,
+      "name": "database.scheduled-executor-service",
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.validation-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.validation-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariConfig",
+      "name": "database.validation-timeout",
+      "type": "java.lang.Long"
+    }
+  ]
+}
